@@ -158,7 +158,9 @@ function computer() {
     let botTotalscores = scores[1] + currentScore;
     /////// AUTOMATION CONDITION////
     autoClick = setInterval(function () {
-      rollDiceButton.click();
+
+      rollDiceButton.disabled
+rollDiceButton.click();
       botTotalscores = scores[1] + currentScore;
 
       if (
