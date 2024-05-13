@@ -160,6 +160,7 @@ function computer() {
     autoClick = setInterval(function () {
 
       rollDiceButton.disabled
+      holdButton.disabled
 rollDiceButton.click();
       botTotalscores = scores[1] + currentScore;
 
