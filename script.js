@@ -240,6 +240,8 @@ rollDiceButton.click();
 function game() {
   if (activePlayer === 1) {
     computer();
+    rollDiceButton.disabled
+      holdButton.disabled
   } else {
     user();
     console.log('user turn');
